@@ -19,6 +19,6 @@ JOIN customers AS c
 	ON o.customer_id = c.customer_id;
 
 SELECT o.order_id, o.product_id, p.name, o.quantity, o.unit_price
-FROM sql_store.order_items AS o
-JOIN sql_store.products AS p
+FROM order_items AS o
+JOIN products AS p
 	ON o.product_id = p.product_id;
