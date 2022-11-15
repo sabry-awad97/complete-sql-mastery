@@ -18,4 +18,4 @@ FROM (
                     total_sales - average
             ) AS difference
         FROM clients c
-    )
+    ) AS sales_summary
