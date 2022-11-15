@@ -21,3 +21,7 @@ SELECT EXTRACT(YEAR FROM NOW());
 SELECT * FROM orders WHERE order_date >= '2019-01-01';
 
 SELECT * FROM orders WHERE YEAR(order_date) = YEAR(NOW());
+
+SELECT DATE_FORMAT(NOW(), '%M %d %Y');
+
+SELECT TIME_FORMAT(NOW(), '%H:%i %p');
