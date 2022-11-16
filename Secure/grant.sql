@@ -18,3 +18,12 @@ EXECUTE
 GRANT
     ALL ON *.* -- (all tables in all databases)
     TO biljana;
+
+-- View privileges
+
+SHOW GRANTS FOR biljana;
+
+SHOW GRANTS;
+
+-- for current user
+
