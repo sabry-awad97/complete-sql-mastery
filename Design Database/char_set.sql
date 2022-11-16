@@ -1,0 +1,13 @@
+SHOW CHARSET;
+
+-- CHAR(10) -> 10 X 3 = 30 BITES X 1000000 = 30 M
+
+CREATE DATABASE db_name CHARACTER SET latin1;
+
+ALTER DATABASE db_name CHARACTER SET latin1;
+
+-- the same goes to tables
+
+CREATE TABLE table1 CHARACTER SET latin1;
+
+ALTER TABLE table1 CHARACTER SET latin1;
