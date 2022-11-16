@@ -27,3 +27,8 @@ SHOW GRANTS;
 
 -- for current user
 
+-- Revoke privileges
+
+GRANT CREATE VIEW ON sql_store.* TO bika_app;
+
+REVOKE CREATE VIEW ON sql_store.* FROM bika_app;
